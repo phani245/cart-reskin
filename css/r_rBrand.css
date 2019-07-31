@@ -1,0 +1,616 @@
+/* Drawers on Tablet Fix */
+@media screen and (max-width: 1024px) and (min-width: 768px)  {
+    .silo-group .silo-column-group .first-row .silo-column, .silo-group .silo-column-group .second-row .silo-column {
+        width: 30%;
+    } 
+    }
+    
+    
+    /* Color Swatch Overlap fix 5/25/17 */
+    
+    li.color-picker.thumb,
+    li.br-color-picker,
+    li.mobile-plus,
+    li.color-picker.picked,
+    li.br-color-picker.picked,
+    li.br-color-picker.altpicked {
+        z-index: 0;
+    }
+    
+    
+    /* Icon fix ONLINE-3401 */
+    
+    .product-zoom-indicator img.product-zoom-spinner {
+        margin: 60% auto;
+        height: auto;
+        max-height: initial;
+        width: 51%;
+        position: relative;
+        transform: translateY(-50%);
+    }
+    
+    .boutiqueTextAdornments {
+        background-color: #fff;
+    }
+    
+    
+    /*Length of Beauty Offers Box*/
+    
+    input#beautyOffer {
+        width: auto;
+    }
+    
+    
+    /*Padding for mobile Beauty Offers*/
+    
+    .grid-45.mobile-grid-100.tablet-grid-65.beautyOfferShopNow,
+    .grid-45.mobile-grid-100.tablet-grid-65.beautyOfferShop {
+        margin-bottom: 20px;
+    }
+    
+    
+    /* Editoral Silo Color Change */
+    
+    
+    /*
+    .silo-nav > ul > li[data-siloid="cat202801"] > div > a {
+        color: #5225a5;
+    }
+    */
+    
+    
+    /* Post 09 Build, remove with 10 build */
+    
+    
+    /* Fix for mobile search clear start */
+    
+    input.clearable.x[type="reset"] {
+        display: block;
+    }
+    
+    input.clearable[type="reset"] {
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: #fff !important;
+        background-image: url("/category/responsive/clear.png");
+        background-origin: padding-box;
+        background-position: right 5px center;
+        background-repeat: no-repeat;
+        background-size: auto auto;
+        cursor: pointer;
+        display: none;
+        height: 21px;
+        position: absolute;
+        right: 11px;
+        top: 11px;
+    }
+    
+    
+    /* Fix for mobile search clear finish */
+    
+    
+    /* Fix for type ahead shared styles start */
+    
+    .nm-suggest {
+        bottom: auto;
+        font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+        width: auto;
+    }
+    
+    
+    /* Fix for type ahead shared styles finish */
+    
+    
+    /* Fix for type ahead for mobile start */
+    
+    @media screen and (min-width: 0px) and (max-width: 767px) {
+        #mobile-search-form-suggest ul.ui-autocomplete {
+            left: 0 !important;
+        }
+        .nm-suggest ul.ui-autocomplete {
+            background: #fff none repeat scroll 0 0;
+            border-bottom: 1px solid #000;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5) inset;
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+        }
+        .nm-suggest ul.ui-autocomplete li {
+            border-top: 1px solid #8c8b8b;
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    
+    /* Fix for type ahead for mobile finish */
+    
+    
+    /* Fix for type ahead for tablet & desktop start */
+    
+    @media screen and (min-width: 768px),
+    print {
+        .nm-suggest ul.ui-autocomplete {
+            background: #fff none repeat scroll 0 0;
+            box-shadow: none;
+            list-style: outside none none;
+            margin: 0;
+            padding: 0;
+        }
+        .nm-suggest ul.ui-autocomplete li {
+            margin: 0px;
+        }
+        .nm-suggest ul.ui-autocomplete li a {
+            line-height: 28px;
+        }
+    }
+    
+    
+    /* Fix for type ahead for tablet & desktop finish */
+    
+    @media (min-width: 0) {
+        .site-logo .brandlogo {
+            width: 100%;
+            background-size: cover;
+            max-width: 515px;
+            height: 4vw;
+            max-height: 44px;
+        }
+    }
+    
+    
+    /* Ipad issue on landscape start */
+    
+    @media (width: 1024px) {
+        .site-logo .brandlogo {
+            height: 4.15vw;
+        }
+    }
+    
+    
+    /* Ipad issue on landscape finish */
+    
+    
+    /* END Post 09 Build, remove with 10 build */
+    
+    
+    /* September build mobile filters */
+    
+    .active>.hamburger-nav-toggle {
+        background-image: url('/category/responsive/mobile-icon-minus.png')
+    }
+    
+    .pane-nav>ul>.active>.hamburger-nav-toggle,
+    .hamburger-nav>ul>.active>.hamburger-nav-toggle {
+        background-image: url('/category/responsive/mobile-icon-minus-white.png');
+        border-left-color: #fff
+    }
+    
+    .pane-nav>ul>.active>.pane-nav-toggle,
+    .hamburger-nav>ul>.active>.pane-nav-toggle,
+    .pane-nav>ul>.active>.hamburger-nav-toggle {
+        background-image: none;
+        border-left-color: #ffffff;
+    }
+    
+    
+    /* Sweepstakes CheetahMail iframe */
+    
+    @media screen and (min-width: 380px),
+    print {
+        #cheetahframe {
+            height: 1220px
+        }
+    }
+    
+    @media screen and (min-width: 315px),
+    print {
+        #cheetahframe {
+            height: 1220px
+        }
+    }
+    
+    
+    /* Bloomreach Close Button */
+    
+    .br-sf-widget-merchant-popup-close {
+        background: url("http://thematic.brcdn.com/neimanmarcus/static_files/images/close.gif") no-repeat scroll 0% 0% transparent;
+        height: 18px;
+        position: absolute;
+        right: 8px;
+        top: 8px;
+        width: 18px;
+    }
+    
+    
+    /* Price adornment colors */
+    
+    .price-adornments .sale-text {
+        font-weight: bold;
+    }
+    
+    
+    /* Mobile Header Footer */
+    
+    .share-menu li {
+        padding-right: 0px;
+    }
+    
+    .share-menu li[title="Pinterest"] {
+        background: url('/category/responsive/icon-share-pinterest.png') no-repeat;
+        background-size: 100% 100%;
+        width: 36px!important;
+        height: 36px!important;
+    }
+    
+    
+    /*body.productPage .share-menu ul li[title="Pinterest"].pinterestLink a.PIN_1438629483112_pin_it_button_en_20_gray {
+        background-image:none !important;
+    }*/
+    
+    body.productPage .share-menu ul li[title="Pinterest"].pinterestLink a[class*="PIN_"] {
+        background-image: none !important;
+    }
+    
+    
+    /* end Mobile Header Footer */
+    
+    
+    /* Enter search term */
+    
+    input#mobileSearchText {
+        font-size: 13px;
+    }
+    
+    
+    /* end Enter search term */
+    
+    
+    /* Header Ticker text tranform */
+    
+    .mobile-promo-header {
+        text-transform: none;
+    }
+    
+    
+    /* end Header Ticker text tranform */
+    
+    .silo-nav>ul>li>div>a {
+        font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+        color: #5a5856;
+        font-weight: normal;
+        font-size: 11px;
+    }
+    
+    h2.default-text-size {
+        text-transform: none;
+    }
+    
+    
+    /***************************************************Removed a.button:hover and background color per development's request***********************************************************************************/
+    
+    
+    /*@media screen and (min-width: 1025px), print {     
+        button:hover, a.button:hover, span.button:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #ffffff;
+        }
+    }*/
+    
+    @media screen and (min-width: 1025px),
+    print {
+        button:hover,
+        span.button:hover,
+        input[type="button"]:hover,
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            /*background-color: #ffffff;*/
+        }
+    }
+    
+    
+    /******************************************************Removed button hover and background color per development's request**********************************************************************************/
+    
+    
+    /*Resolve issue where last category is on the right instead of left*/
+    
+    @media only screen and (max-width: 767px) {
+        .sc3 .table-image-grid tr:nth-child(even) td:nth-child(even),
+        .sc3 .table-image-grid tr:nth-child(odd) td:nth-child(odd) {
+            clear: left;
+        }
+    }
+    
+    
+    /*End of Resolve issue where last category is on the right instead of left*/
+    
+    .slick-prev,
+    .slick-prev:hover {
+        background-position: 50% 0px;
+        background-image: url("/category/cat20079/previous.png");
+    }
+    
+    .slick-next,
+    button.slick-next:hover {
+        background-position: 50% 0px;
+        background-image: url("/category/cat20079/next.png");
+    }
+    
+    .slick-prev,
+    .slick-next {
+        height: 36px;
+    }
+    
+    
+    /*Account Pages*/
+    
+    .gutter-top {
+        margin-top: 20px !important;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #8c8b8b;
+    }
+    
+    .column-right {}
+    
+    .breadcrumbs {
+        height: auto;
+    }
+    
+    .breadcrumbs li>a {
+        font-size: 11px;
+    }
+    
+    .product-zoom-frame {
+        box-shadow: none;
+        border: 1px solid black;
+    }
+    
+    
+    /*Drawer Adornment Color*/
+    
+    .silo-nav a span.boutiqueTextAdornments {
+        color: #5225a5
+    }
+    
+    
+    /*End Drawer Adornment Color*/
+    
+    
+    /*Drawer Adornment Color in Mobile*/
+    
+    .pane-nav i span.boutiqueTextAdornments,
+    .pane-nav label span.boutiqueTextAdornments,
+    .hamburger-nav i span.boutiqueTextAdornments,
+    .hamburger-nav a span.boutiqueTextAdornments {
+        color: #5225a5;
+        text-transform: uppercase;
+    }
+    
+    
+    /*End Drawer Adornment Color in Mobile*/
+    
+    
+    /*Fix back to top for checkout*/
+    
+    .back-to-top {
+        background: #eee url("/category/responsive/top-arrow.png") no-repeat scroll 10px center;
+        bottom: 30px;
+        color: #5a5856;
+        left: auto;
+        line-height: 1;
+        padding: 10px 10px 10px 40px;
+        position: fixed;
+        right: 0;
+        top: auto;
+        z-index: 100;
+    }
+    
+    .mobile-promo-header {
+        text-transform: none;
+    }
+    
+    
+    /*Fix CHANEL Graphic header issue*/
+    
+    .chanel #categoryheader,
+    .chanel #categoryimgheader {
+        display: inline;
+    }
+    
+    
+    /*End Fix CHANEL Graphic header issue*/
+    
+    
+    /*Account Page - "Why Register" block*/
+    
+    div.grid-50.tablet-grid-50.mobile-grid-100.mobile-full-bleed div.column.right {
+        color: #000000;
+        font-size: 11px;
+        font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+    }
+    
+    .productDetailContainer .product-details-info li {
+        display: list-item;
+    }
+    
+    div.push-30.grid-70.tablet-grid-100.mobile-grid-100 input#signInBtn.button-action
+    /*Submit Button*/
+    
+    {
+        position: relative;
+        top: -8px;
+    }
+    
+    div.grid-50.tablet-grid-50.mobile-grid-100.mobile-full-bleed div.column.right .button-action
+    /*Register Now Button*/
+    
+    {
+        position: relative;
+        top: 5px;
+    }
+    
+    
+    /*h1, h2, h3, h4, h5, h6 {
+        color: #8c8b8b;
+        font-family: Arial,"Liberation Sans",FreeSans,sans-serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: #000;
+    }*/
+    
+    
+    /*h3 {
+        font-size: 14px;
+    }*/
+    
+    
+    /*End Account Page - "Why Register" block*/
+    
+    
+    /*Account Overview Page*/
+    
+    
+    /*h2 {
+        font-size: 14px;
+    }*/
+    
+    div.mobile-grid-70.grid-parent h2.align-left {
+        font-size: 18px;
+        color: #8c8b8b;
+    }
+    
+    td.overview-heading {
+        text-transform: uppercase;
+    }
+    
+    div.grid-50.tablet-grid-50.mobile-grid-100.mobile-full-bleed.gutter-top-half h2 {
+        font-size: 18px;
+    }
+    
+    .service-nav ul li a {
+        font-size: 14px;
+    }
+    
+    /*End Account Overview Page*/
+    
+    /*Help Page*/
+    
+    div#assistance.grid-100 h2#assistancedisplayname.hide-on-mobil {
+        font-size: 18px;
+        color: #8c8b8b;
+    }
+    
+    
+    /*.assistance .service-nav ul li a /*Menu items on left
+    {
+        color: #8c8b8b;
+        font-family: Arial,"Liberation Sans",FreeSans,sans-serif;
+        font-size: 14px;
+    }*/
+    
+    /*End Help Page*/
+    
+    .list-filter.drawerHandle section {
+        z-index: 10;
+    }
+    
+    li.category-item p.flag-sold-out {
+        z-index: 1;
+    }
+    
+    
+    /* New Drawer April 2016 Fix for Tablet NMOBLDS-26278 Testing*/
+    
+    @media screen and (min-width: 1024px) {
+        .silo-nav .designer-drawer .right-panel {
+            width: 81%;
+        }
+    }
+    
+    
+    /*Modal Fix*/
+    
+    @media screen and (max-width: 1024px) {
+        .html-modal-show .entire-site-container,
+        .html-modal-show .promo-header-wrapper {
+            height: 0;
+        }
+    }
+    
+    .modal-overlay {
+        overflow: initial;
+    }
+    
+    .html-modal-show .modal-overlay {
+        overflow: initial;
+    }
+
+    .modal-overlay  label {
+        position: relative;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .modal-overlay  label input{
+        -webkit-appearance: none;
+        width: 100%;
+        border: 0;
+        font-family: inherit;
+        padding: 20px 0 0 10;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 500;
+        border: 2px solid #9999a5;
+        background: none;
+        border-radius: 0;
+        color: #9999a5;
+        transition: all 0.15s ease;
+    }
+    
+    .modal-overlay label input:hover{
+        background-color: #ffffff;
+    }
+    
+    .modal-overlay label input:not(:placeholder-shown) + span {
+        color: #9999a5;
+        transform: translateY(-10px) scale(0.75);
+    }
+    
+    .modal-overlay label input:focus {
+        background: none;
+        outline: none;
+    }
+    
+    .modal-overlay label input:focus + span {
+        color: #9999a5;
+        transform: translateY(-10px) scale(0.75);
+    }
+    
+    .modal-overlay label input:focus + span + .border {
+        transform: scaleX(1);
+    }
+    
+    .modal-overlay label .label{
+        position: absolute;
+        top: 16px;
+        left: 10;
+        font-size: 16px;
+        color: #9999a5;
+        font-weight: 500;
+        transform-origin: 0 0;
+        transition: all 0.2s ease;
+    }
+    
+    .modal-overlay label .border{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 2px;
+        width: 100%;
+        background: #9999a5;
+        transform: scaleX(0);
+        transform-origin: 0 0;
+        transition: all 0.15s ease;
+    }

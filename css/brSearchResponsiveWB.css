@@ -1,0 +1,107 @@
+.brm-autosuggest-menu {
+	-webkit-box-shadow: 0 2px 3px 0 rgba(0,0,0,.22);
+  -moz-box-shadow: 0 2px 3px 0 rgba(0,0,0,.22);
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,.22);
+	
+	background: none repeat scroll 0 0 #fff;
+	font-family: arial;
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 150
+}
+
+.brm-autosuggest-menu>ul {
+	background-color: #fff;
+	float: left;
+	list-style-type: none;
+	margin: auto;
+	padding: inherit;
+	text-transform: capitalize;
+	width: 100%
+}
+
+.brm-autosuggest-menu>ul.right {
+	background-color: #e8e8e8;
+	box-shadow: 0 3px 4px #ccc;
+	text-transform: inherit;
+	width: 48.8%
+}
+
+.brm-autosuggest-menu>ul>li {
+	cursor: pointer;
+	font-size: 11px;
+	height: auto;
+	line-height: 28px;
+	margin-left: 0;
+	padding: 0;
+	position: relative
+}
+
+.brm-autosuggest-menu>ul.right>li {
+	border-bottom: medium none;
+	padding: 5px 10px 5px 19px
+}
+
+.brm-autosuggest-menu>ul.right>li:first-child {
+	padding: 5px 6px
+}
+
+.brm-autosuggest-menu a {
+	display: block;
+	text-align: left;
+	padding: 10px 16px;
+	font-size: 15px;
+	color: #020202 !important;
+	text-decoration: none;
+  font-weight: normal;
+  text-transform: capitalize;
+  height: 40px;
+  box-sizing: border-box;
+  line-height: 20px;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Helvetica Neue,Helvetica,Arial,Roboto,sans-serif;
+}
+
+.brm-autosuggest-menu a:hover {
+	background-color: #e0dfdf
+}
+
+.brm-autosuggest-menu a .match {
+	font-weight: normal;
+  color: #5225a5;
+	text-decoration: none;
+}
+
+.suggest-active {
+	background-color: #e0dfdf
+}
+
+.brm-autosuggest-nub {
+	background: url("../images/search-categ-nub.png") no-repeat scroll left
+		top transparent;
+	height: 23px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	width: 11px
+}
+
+.brm-autosuggest-wrap {
+	position: relative
+}
+
+@media screen and (max-width:767px) {
+	.brm-autosuggest-menu {
+		left:19px;
+		top: 110px;
+		width: calc(100% - 34px);
+		position: absolute
+	}
+	.brm-autosuggest-menu ul li a {
+		font-size: 14px;
+	}
+}
